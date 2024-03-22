@@ -73,7 +73,7 @@ class Wheel : public VisualObject
 
 	// methods ----
 
-	void getAs3DObject(mrpt::opengl::CSetOfObjects& obj, bool isPhysicalScene);
+	void getAs3DObject(mrpt::opengl::CSetOfObjects& obj);
 	void loadFromXML(const rapidxml::xml_node<char>* xml_node);
 
 	void internalGuiUpdate(
